@@ -1,0 +1,50 @@
+{
+  "name": "cr",
+  "description": "Strip windows carriage returns, or convert carriage returns to newlines.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/cr",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/cr",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/cr/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "carriage",
+    "carriage-return",
+    "file",
+    "fs",
+    "newline",
+    "newlines",
+    "nl",
+    "normalize",
+    "return",
+    "returns",
+    "string"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "read-file",
+        "read-yaml",
+        "read-data",
+        "write",
+        "copy"
+      ]
+    }
+  }
+}
